@@ -26,8 +26,9 @@ public class Jyanken_Chapter28 {
 
     // 対戦相手の手を乱数で選ぶ
     public String getRandom() {
-        int random = (int)(Math.random() * 3);
-        switch (random) {
+    	double random = Math.random() * 3;
+        int index = (int)Math.floor(random); // 小数を切り捨てる
+        switch (index) {
             case 0: return "r";
             case 1: return "s";
             case 2: return "p";
