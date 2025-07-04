@@ -5,18 +5,6 @@ public abstract class Kato_Chapter18 {
     public String givenName;
     public String address;
 
-    public void setFamilyName(String familyName) {
-        this.familyName = familyName;
-    }
-
-    public void setGivenName(String givenName) {
-        this.givenName = givenName;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
     public void commonIntroduce() {
         System.out.println("名前: " + familyName + " " + givenName);
         System.out.println("住所: " + address);
